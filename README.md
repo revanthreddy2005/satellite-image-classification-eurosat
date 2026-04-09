@@ -41,6 +41,14 @@ The model is based on MobileNetV2 pretrained on ImageNet, followed by a custom c
 
 ---
 
+## Multiple Predictions Visualization
+
+The model is tested on multiple random satellite images to demonstrate its ability to generalize across different land-use categories. Each prediction includes the true label, predicted label, and confidence score.
+
+![Multiple Predictions](multi_predictions.png)
+
+---
+
 ### Top-3 Predictions
 ![Top 3 Predictions](top3.png)
 
